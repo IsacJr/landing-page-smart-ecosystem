@@ -1,0 +1,92 @@
+.main-wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.main-container {
+  display: flex;
+  height: 100%;
+}
+
+.main-content-background {
+  display: flex;
+  color: var(--thirdiary-color);
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 25rem;
+  font-weight: 700;
+  position: absolute;
+  z-index: -100;
+  width: 100%;
+  height: 100%;
+}
+
+.main-content-background span:last-child {
+  align-self: flex-end;
+}
+
+.main-content {
+  width: 50%;
+}
+
+.main-content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.lamp-wraper {
+  position: relative;
+}
+
+.lamp-img {
+  object-fit: scale-down;
+  height: 30rem;
+  margin-bottom: 12rem;
+}
+
+.lamp-light {
+  content: "";
+  width: 10rem;
+  height: 18rem;
+  bottom: 20rem;
+  left: 12rem;
+  opacity: 0.3;
+  background: linear-gradient(0.25turn, #ffffff83, #ffffff, #ffffff, #ffffff83);
+  position: absolute;
+}
+
+.main-content-text h1 {
+  font-size: 4rem;
+}
+
+.toggle-container {
+  margin-top: 3rem;
+}
+
+.text-info {
+  display: flex;
+  margin-top: 4rem;
+  width: 100%;
+}
+
+.text-info p {
+  font-size: 1.2rem;
+  width: 50%;
+}
+
+.text-info p:first-child {
+  margin-right: 2rem;
+  width: 50%;
+}
+
+.main-content-img {
+  display: flex;
+  margin-top: 8rem;
+}
+
+.main-content-img img {
+  object-fit: none;
+  width: 20rem;
+  height: 35rem;
+}

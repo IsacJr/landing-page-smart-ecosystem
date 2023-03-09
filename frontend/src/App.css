@@ -1,0 +1,18 @@
+.app-container {
+  width: 100%;
+  min-height: 100vh;
+  color: var(--primary-color);
+}
+
+.dark-theme {
+  --primary-color: #ffffff;
+  --secundary-color: #141414;
+  --thirdiary-color: #9b9b9b;
+  --fourtiary-color: #b5b6b5;
+  background-color: var(--secundary-color);
+}
+
+.app-content {
+  max-width: 102.4rem;
+  margin: 0 auto;
+}
