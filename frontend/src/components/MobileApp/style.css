@@ -1,0 +1,27 @@
+.mobile-app-content {
+  margin-top: 13rem;
+  display: flex;
+  height: 50rem;
+  justify-content: flex-end;
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.mobile-app-text {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  color: #ffffff;
+  font-weight: 700;
+  justify-content: center;
+}
+
+.mobile-app-title {
+  font-size: 7rem;
+}
+
+.mobile-app-description {
+  font-size: 2rem;
+  margin-top: 3rem;
+}
