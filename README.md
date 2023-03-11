@@ -1,6 +1,6 @@
 # Landing Page Easy Smart
 
-A landing page.
+A landing page. There's a demo hosted on github pages [here](https://isacjr.github.io/landing-page-smart-ecosystem).
 
 ## Getting Started
 
