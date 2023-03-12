@@ -1,11 +1,11 @@
 .mobile-app-content {
-  margin-top: 13rem;
   display: flex;
   height: 50rem;
   justify-content: flex-end;
   background-size: cover;
-  background-position: right;
+  background-position: center;
   background-repeat: no-repeat;
+  margin-top: 6rem;
 }
 
 .mobile-app-text {
