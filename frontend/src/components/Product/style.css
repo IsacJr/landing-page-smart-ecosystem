@@ -1,0 +1,19 @@
+.product-content {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto 16rem;
+}
+
+.product-content-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+.product-content-cards {
+  display: flex;
+  justify-content: space-between;
+}
