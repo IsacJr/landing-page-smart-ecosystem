@@ -1,6 +1,6 @@
 import "./style.css";
-import echoDots from "../../assets/echo-dots.jpg";
-import iphoneUsing from "../../assets/iphone-using.jpg";
+import echoDots from "../../../../assets/echo-dots.jpg";
+import iphoneUsing from "../../../../assets/iphone-using.jpg";
 
 function About() {
   return (

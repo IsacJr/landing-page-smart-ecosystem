@@ -1,8 +1,8 @@
 import "./style.css";
-import iphone from "../../assets/iphone-model.png";
+import iphone from "../../../../assets/iphone-model.png";
 import { DiApple } from "react-icons/di";
 import { DiAndroid } from "react-icons/di";
-import { openInNewTab } from "../../utils/Util";
+import { openInNewTab } from "../../../../utils/Util";
 
 export const Download = () => {
   return (

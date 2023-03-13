@@ -1,5 +1,5 @@
 import "./style.css";
-import iphoneCovere from "../../assets/iphone-cover-app.jpg";
+import iphoneCovere from "../../../../assets/iphone-cover-app.jpg";
 
 const myStyle: React.CSSProperties = {
   backgroundImage: `url(${iphoneCovere})`,

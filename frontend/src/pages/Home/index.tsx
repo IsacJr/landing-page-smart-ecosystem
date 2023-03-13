@@ -1,11 +1,11 @@
-import { useInView } from "react-intersection-observer";
-import About from "../../components/About";
-import { Download } from "../../components/Download";
-import HeadNavbar from "../../components/Header";
-import Main from "../../components/Main";
-import { MobileApp } from "../../components/MobileApp";
-import { Product } from "../../components/Product";
 import "./style.css";
+import { useInView } from "react-intersection-observer";
+import HeadNavbar from "../../components/Header";
+import Main from "./sections/Main";
+import About from "./sections/About";
+import { MobileApp } from "./sections/MobileApp";
+import { Product } from "./sections/Product";
+import { Download } from "./sections/Download";
 
 function Home() {
   const { ref: mainRef, inView: isMainVisible } = useInView();

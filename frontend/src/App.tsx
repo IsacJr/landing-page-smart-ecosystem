@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import "./App.css";
-import ThemeProvider, { ThemeContext } from "./Context/ThemeContext";
+import ThemeProvider, { ThemeContext } from "./context/ThemeContext";
 import Home from "./pages/Home";
 
 function App() {

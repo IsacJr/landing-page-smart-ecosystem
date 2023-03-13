@@ -1,9 +1,9 @@
 import "./style.css";
-import iphone from "../../assets/iphone-model.png";
-import lamp from "../../assets/lamp.png";
-import Toggle from "../Toggle";
+import iphone from "../../../../assets/iphone-model.png";
+import lamp from "../../../../assets/lamp.png";
 import { useContext } from "react";
-import { ThemeContext } from "../../Context/ThemeContext";
+import Toggle from "../../../../components/Toggle";
+import { ThemeContext } from "../../../../context/ThemeContext";
 
 function Main() {
   const { isDarkMode, setDarkMode } = useContext(ThemeContext);

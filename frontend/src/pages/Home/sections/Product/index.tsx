@@ -1,6 +1,6 @@
-import { Card } from "../Card";
 import "./style.css";
-import echo from "../../assets/echo-dots.jpg";
+import echo from "../../../../assets/echo-dots.jpg";
+import { Card } from "../../../../components/Card";
 
 export const Product = () => {
   return (
