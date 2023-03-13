@@ -18,5 +18,5 @@
 
 .home-content-visible {
   opacity: 1;
-  animation: fadeIn 5s forwards;
+  animation: fadeIn 3s forwards;
 }

@@ -41,8 +41,11 @@ function Main() {
           </div>
         </div>
         <div className="main-content main-content-img">
-          <img src={iphone} alt="iphone" />
-          <img src={iphone} alt="iphone" />
+          <div className="main-content-wrapper-img">
+            <img src={iphone} alt="iphone" />
+            <img src={iphone} alt="iphone" />
+          </div>
+          <div className="main-content-mobile-shadow"></div>
         </div>
       </div>
     </div>
