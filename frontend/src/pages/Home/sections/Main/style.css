@@ -139,3 +139,21 @@
     transform: translateY(1rem);
   }
 }
+
+@media screen and (max-width: 1016px) {
+  .main-container {
+    flex-direction: column;
+  }
+
+  .main-content {
+    width: 100%;
+  }
+
+  .main-content-img {
+    align-items: center;
+  }
+
+  .main-content-wrapper-img {
+    width: fit-content;
+  }
+}

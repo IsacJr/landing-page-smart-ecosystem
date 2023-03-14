@@ -44,3 +44,19 @@
 .about-pictures img:last-child {
   width: 39%;
 }
+
+@media screen and (max-width: 500px) {
+  .about-pictures {
+    flex-direction: column;
+  }
+
+  .about-pictures img:first-child {
+    margin-bottom: 2rem;
+  }
+
+  .about-pictures img:first-child,
+  .about-pictures img:last-child {
+    width: 100%;
+    object-position: center;
+  }
+}
