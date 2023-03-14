@@ -36,7 +36,12 @@
 }
 
 .toggle-wrapper input:checked + span {
-  background-color: #0bcaf8;
+  background: rgb(14, 29, 187);
+  background: linear-gradient(
+    90deg,
+    rgba(14, 29, 187, 1) 0%,
+    rgba(11, 202, 248, 1) 100%
+  );
 }
 
 .toggle-wrapper input:checked + span:before {
