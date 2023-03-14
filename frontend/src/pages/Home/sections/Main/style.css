@@ -130,13 +130,13 @@
 
 @keyframes moveUpnDown {
   0% {
-    transform: translateY(1rem);
+    transform: translateY(0.5rem);
   }
   50% {
-    transform: translateY(-2rem);
+    transform: translateY(-1rem);
   }
   100% {
-    transform: translateY(1rem);
+    transform: translateY(0.5rem);
   }
 }
 
