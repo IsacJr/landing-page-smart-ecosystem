@@ -1,6 +1,6 @@
-# Landing Page Easy Smart
+# Easy Smart
 
-A landing page. There's a demo hosted on github pages [here](https://isacjr.github.io/landing-page-smart-ecosystem).
+A landing page for practicing react, css animation, and responsiveness. This project also contains CI/CD by GitHub Actions and GitHub Pages. There's a demo available [here](https://isacjr.github.io/landing-page-smart-ecosystem).
 
 ## Getting Started
 
@@ -8,7 +8,8 @@ The following instructions will allow you run the project in dev mode.
 
 ### Prerequisites
 
-- [Node](https://nodejs.org/en/)
+- [git](https://git-scm.com/)
+- [Node and npm](https://nodejs.org/en/)
 
 ### Instalation
 
@@ -27,4 +28,4 @@ npm install
 npm run dev
 ```
 
-You'll be able to access the website on localhost:5173
+You'll be able to access the application in your browser on addres localhost:5173.

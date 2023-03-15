@@ -1,5 +1,5 @@
 import "./style.css";
-import iphone from "../../../../assets/iphone-model.png";
+import iphoneDownload from "../../../../assets/iphone-download.jpg";
 import { DiApple } from "react-icons/di";
 import { DiAndroid } from "react-icons/di";
 import { openInNewTab } from "../../../../utils/Util";
@@ -39,7 +39,7 @@ export const Download = () => {
           </div>
         </div>
       </div>
-      <img src={iphone} alt="" />
+      <img className="download-app-smartphone" src={iphoneDownload} alt="" />
     </div>
   );
 };
